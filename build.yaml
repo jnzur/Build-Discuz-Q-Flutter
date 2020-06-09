@@ -15,8 +15,8 @@ development:
   # You are not gonna get a health application when you add a domain like https://google.com redirected into https://www.google.com
   #
   # YOUR DOMAIN SHOULD NEVER ENDED WITH PATH SEPARATOR LIKE : https://www.example.com/
-  domain: https://discuz.chat
-  appname: Discuz! Q
+  domain: http://q.10z.ren
+  appname: 实在人
   # Allow and show performance overlay setting
   enablePerformanceOverlay: true
   # HTTP2
@@ -40,8 +40,8 @@ development:
 # 构建生产环境的APP时加载的信息
 # Parameters for building prodution package
 production:
-  domain: https://discuz.chat
-  appname: Discuz! Q
+  domain: http://q.10z.ren
+  appname: 实在人
   ## DO NOT ENABLE THIS ITEM WHEN YOU ARE BUILD AN APPLICATION FOR YOUR USERS
   enablePerformanceOverlay: false
   # HTTP2
